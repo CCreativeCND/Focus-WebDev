@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>About Me</title>
+    <title>Portfolio</title>
     <link href="/style.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
@@ -23,7 +23,7 @@
     <nav class="w3-sidebar w3-bar-block w3-collapse w3-animate-left w3-card" style="z-index:3;width:200px;" id="mySidebar">
       <a class="w3-bar-item w3-button w3-hide-large w3-large" href="javascript:void(0)" onclick="w3_close()">Close <i class="fa fa-remove"></i></a>
       <a class="w3-bar-item w3-button w3-black" href="/">Home</a>
-      <a class="w3-bar-item w3-button w3-black" href="/portfolio">Portfolio</a>
+      <a class="w3-bar-item w3-button w3-black" href="/about">About Me</a>
     </nav>
     <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
 
@@ -32,32 +32,22 @@
     <div class="w3-main page-container" style="margin-left:200px;">
       <div id="myTop" class="w3-container w3-top w3-theme w3-large">
         <p><i class="fa fa-bars w3-button w3-black w3-hide-large w3-xlarge" onclick="w3_open()"></i>
-        <span id="myIntro" class="w3-hide">About Me</span></p>
+        <span id="myIntro" class="w3-hide">Portfolio</span></p>
       </div>
 
       <header class="w3-container w3-theme" style="padding:64px 32px">
-        <h1 class="w3-xxxlarge">About Me</h1>
+        <h1 class="w3-xxxlarge">Portfolio</h1>
       </header>
 
       <div class="w3-container content-wrap" style="padding:32px">
 
-        <h1>I am a front-end web developer.</h1>
-
-        <p>After leaving high school, I went to the Computer Science department at Princeton University.</p>
-        <p>I was there for 4 years, and received a bachelor's degree in computer science.</p>
-        <p>I took specialised on HTML5, CSS3, and JavaScript.<p>
-        <p>Over the next few years, I also spent time to get certified as a</p>
-        <ul class="w3-leftbar w3-theme-border" style="list-style:none">
-          <li>Microsoft Certified Solutions Developer</li>
-          <li>AWS Certified Developer</li>
-          <li>Oracle Application Express</li>
-          <li>Oracle Certified Expert</li>
-        </ul>
-        <p>After college, I landed a job as a web developer at a small buisness.</p>
-        <p>After working for a few years there, I moved to a better job at a bigger company.</p>
-        <p>After a few years of working there, I got the job title of "Lead Web Developer".</p>
-        <p>A few years after that, I left the company and became a freelancer.</p>
-        <p>I am still a freelancer and work on many different projects.</p>
+        <div class="w3-row">
+            <div class="w3-third">
+                <img src="https://thumbnail.ws/get/thumbnail/?apikey=ab45a17344aa033247137cf2d457fc39ee4e7e16a464&url=calum.gq&width=400&mobile=false" style="width:100%" onclick="onClick(https://calum.gq)">
+                <img src="https://thumbnail.ws/get/thumbnail/?apikey=ab45a17344aa033247137cf2d457fc39ee4e7e16a464&url=blog.calum.gq&width=400&mobile=false" style="width:100%" onclick="onClick(https://blog.calum.gq)">
+                <img src="https://thumbnail.ws/get/thumbnail/?apikey=ab45a17344aa033247137cf2d457fc39ee4e7e16a464&url=github.calum.gq&width=400&mobile=false" style="width:100%" onclick="onClick(https://github.calum.gq)">
+            </div>
+        </div>
 
         <br>
         <br>
