@@ -12,3 +12,7 @@
   height: 3rem;            /* Footer height */
   padding-left: 10px;
 }
+
+body {
+    background-color: black;
+}
